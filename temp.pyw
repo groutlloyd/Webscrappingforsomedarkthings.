@@ -42,7 +42,7 @@ class Myautodownloader():
 		ans=""
 		num=0
 		imgtype=[0,0,0]
-		findurl="https://t.nhentai"
+		findurl="https://t." #something you shouldn't know LOL 😂 
 		findpage = "pages%3A%3C"
 		i=0
 		mytrue = 1
@@ -87,7 +87,7 @@ class Myautodownloader():
 	
 	def initfolder(self,url):
 		ans=''
-		origdir='C:\\Users\\ADMIN\\OneDrive\\Pictures\\Mytestimage'
+		origdir='C:\\Users\\ADMIN\\OneDrive\\Pictures\\Mytestimage' # your own dir go here.
 		for i in range(len(url)):
 			if url[i]=='g':
 				ans=url[i+2:]
