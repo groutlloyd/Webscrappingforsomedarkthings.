@@ -178,4 +178,5 @@ def testjob():
 	    time.sleep(1)
 
 #testjob()
-
+# you can use these schedule for something serious like a Pi farm or whatever you can think...
+#But I think it's the best when you're using some C++ lines...
